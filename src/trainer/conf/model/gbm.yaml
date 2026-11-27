@@ -1,0 +1,7 @@
+defaults:
+  - schema_model
+name: gbm
+params:
+  max_iter: 300
+  learning_rate: 0.05
+  max_leaf_nodes: 31

@@ -1,0 +1,4 @@
+defaults:
+  - schema_split
+kind: random
+test_size: 0.25

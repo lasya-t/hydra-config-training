@@ -1,0 +1,14 @@
+defaults:
+  - schema
+  - model: logreg
+  - split: time
+  - _self_
+
+seed: 0
+
+hydra:
+  run:
+    dir: outputs/${model.name}_${split.kind}_seed${seed}
+  sweep:
+    dir: multirun
+    subdir: ${model.name}_${split.kind}_seed${seed}

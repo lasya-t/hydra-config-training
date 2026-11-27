@@ -1,0 +1,7 @@
+defaults:
+  - schema_model
+name: random_forest
+params:
+  n_estimators: 200
+  max_depth: 8
+  min_samples_leaf: 20
